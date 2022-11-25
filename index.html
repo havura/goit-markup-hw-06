@@ -415,13 +415,52 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon" width="18" height="18">
             <use href="./images/sprite.svg#icon-close-black"></use>
           </svg>
         </button>
+        <form class="modal-form">
+          <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+          <label class="modal-form-field">
+            <span class="modal-section-text">Ім'я</span>
+            <span class="modal-form-input-wrapper">
+              <input name="user-name" type="text" class="modal-form-input" />
+              <svg class="modal-input-icon" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-person-black-form"></use>
+              </svg>
+            <span/>
+          </label>
+          <label class="modal-form-field">
+            <span class="modal-section-text">Телефон</span>
+            <span class="modal-form-input-wrapper">
+              <input name="user-phone-number" type="tel" class="modal-form-input" />
+              <svg class="modal-input-icon" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-phone-black-form"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-form-field">
+            <span class="modal-section-text">Пошта</span>
+            <span class="modal-form-input-wrapper">
+              <input name="user-mailbox" type="email" class="modal-form-input" />
+              <svg class="modal-input-icon" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-email-black-form"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-form-field">
+            <span class="modal-section-text">Коментар</span>
+            <textarea name="user-message" class="modal-form-message" placeholder="Введіть текст"></textarea>
+          </label>
+          <label class="modal-wrapper">
+            <input name="user-police" type="checkbox" class="modal-form-check" />
+            Погоджуюся з розсилкою та приймаю <a href="Умови договору"></a>
+          </label>
+          <button type="submit " class="modal-form-btn">Надіслати</button>
+        </form>
       </div>
     </div>
 
