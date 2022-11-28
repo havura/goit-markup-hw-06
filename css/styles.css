@@ -885,11 +885,7 @@ img {
 
 .modal-form-check:checked + .modal-form-own-check {
   background-color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.modal-form-check:focus + .modal-form-own-check {
-  outline: 2px solid rgba(0, 0, 255, 0.5);
+  border-color: transparent;
 }
 
 .modal-form-own-check-icon {
